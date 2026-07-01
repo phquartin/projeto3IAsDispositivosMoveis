@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Ícone simples de "check" representando tarefa concluída. -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44.5,68.2l-13.8,-13.8l-4.7,4.7l18.5,18.5l39.7,-39.7l-4.7,-4.7z" />
+</vector>

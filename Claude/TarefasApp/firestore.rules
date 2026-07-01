@@ -1,0 +1,23 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Cada usuário só pode ler/gravar documentos dentro da sua própria árvore:
+    //   users/{userId}/tasks/{taskId}
+    match /users/{userId} {
+
+      // (Opcional) documento de perfil do próprio usuário.
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      match /tasks/{taskId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // Bloqueia qualquer outro acesso por padrão.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

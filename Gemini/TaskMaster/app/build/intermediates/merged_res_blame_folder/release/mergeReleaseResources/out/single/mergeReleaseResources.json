@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.taskmaster.app-release-61:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.taskmaster.app-main-62:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.taskmaster.app-release-61:/xml_backup_rules.xml.flat",
+        "source": "com.example.taskmaster.app-main-62:/xml/backup_rules.xml"
+    }
+]

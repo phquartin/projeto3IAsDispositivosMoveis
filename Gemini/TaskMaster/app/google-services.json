@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "419901099661",
+    "firebase_url": "https://claude-de5cf-default-rtdb.firebaseio.com",
+    "project_id": "claude-de5cf",
+    "storage_bucket": "claude-de5cf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419901099661:android:fc7b4cfba077b5800f9cc4",
+        "android_client_info": {
+          "package_name": "com.example.tarefas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYTDPUgYaGsrhgedy1dqc82HZOCztfgXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419901099661:android:11d7000f74c4c1390f9cc4",
+        "android_client_info": {
+          "package_name": "com.example.taskmaster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYTDPUgYaGsrhgedy1dqc82HZOCztfgXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

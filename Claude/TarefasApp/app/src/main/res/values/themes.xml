@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme. Compose draws the actual Material3 theme; this is only used
+         before Compose takes over (splash window). -->
+    <style name="Theme.TarefasApp" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

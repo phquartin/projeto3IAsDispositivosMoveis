@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://claude-de5cf-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">419901099661</string>
+    <string name="google_api_key" translatable="false">AIzaSyCYTDPUgYaGsrhgedy1dqc82HZOCztfgXc</string>
+    <string name="google_app_id" translatable="false">1:419901099661:android:11d7000f74c4c1390f9cc4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCYTDPUgYaGsrhgedy1dqc82HZOCztfgXc</string>
+    <string name="google_storage_bucket" translatable="false">claude-de5cf.firebasestorage.app</string>
+    <string name="project_id" translatable="false">claude-de5cf</string>
+</resources>
